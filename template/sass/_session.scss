@@ -1,0 +1,43 @@
+main {
+  grid-area: main;
+  padding: 1rem;
+}
+
+.medium {
+  max-width: 29rem;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #c0c0c0;
+  background: #f8f8f8;
+  border-radius: 5px;
+  margin: 1rem;
+
+  &-body {
+    padding: 1rem;
+
+    & > * {
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+.price {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+.rating span {
+  color: #f0c040;
+  margin: 0.1rem;
+}
